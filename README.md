@@ -5,8 +5,7 @@
 [Lounge UserBot Reposu](https://github.com/Bodrumlubebek/Loungeuserbot)
 
 ## Kurulum
-```YAKINDA...!
-```
+``` YAKINDA...! ```
 
 ### Termux Kurulum
 
