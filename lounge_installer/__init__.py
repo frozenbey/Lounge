@@ -1,4 +1,4 @@
-from rich.live_render import LiveRender
+from rich.live_render import Live_Render
 from rich.console import Console
 from rich.panel import Panel
 import os, shutil
