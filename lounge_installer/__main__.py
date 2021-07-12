@@ -61,7 +61,7 @@ async def oturumacvebotlogolustur (stri, aid, ahash):
     try:
         Client = TelegramClient(StringSession(stri), aid, ahash)
         await Client.start()
-        ms = await Client.send_message('me',LANG['SAKIRUSERBOT'])
+        ms = await Client.send_message('me',LANG['LOUNGEUSERBOT'])
         KanalId = await Client(CreateChannelRequest(
             title='LoungeUserBot BotLog',
             about=LANG['AUTO_BOTLOG'],
@@ -112,9 +112,9 @@ if __name__ == "__main__":
     InvalidKey = "http://github.com/" 
     str1 = InvalidKey+GiperStringKey+SyperStringKey
 
-    if os.path.isdir("./SakirUserBot/"):
-        rm_r("./SakirUserBot/")
-    repo = Repo.clone_from(str1,"./SakirUserBot/", branch="master")
+    if os.path.isdir("./loungeuserbot/"):
+        rm_r("./loungeuserbot/")
+    repo = Repo.clone_from(str1,"./loungeuserbot/", branch="main")
     onemli(LANG['DEPLOYING'])
     app = hgit(heroku, repo, appname)
     config = app.config()
