@@ -1,5 +1,5 @@
-MESAJ="Siri İOS Otomatik Deploy Kuruluma Hoş Geldiniz"
-MESAJ+="\nTelegram: @SiriUserBot"
+MESAJ="Lounge İOS Otomatik Deploy Kuruluma Hoş Geldiniz"
+MESAJ+="\nTelegram: @loungesupport"
 echo y | apk update
 clear
 echo -e $MESAJ
@@ -14,7 +14,7 @@ echo -e $MESAJ
 echo "TeleThon Yükleniyor"
 python3 -m pip install telethon
 echo "Repo klonlanıyor..."
-git clone https://github.com/ErdemBey1/Siriinstaller
+git clone https://github.com/Bodrumlubebek/Loungeinstaller
 clear
 echo -e $MESAJ
 clear
@@ -24,4 +24,4 @@ cd Siriİnstaller
 python3 -m pip install wheel
 python3 -m pip install -r requirements.txt
 clear
-python3 -m siri_installer
+python3 -m lounge_installer
