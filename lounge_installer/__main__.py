@@ -4,7 +4,7 @@ from telethon import TelegramClient, functions
 from telethon.sessions import StringSession
 from rich.prompt import Prompt, Confirm
 from asyncio import get_event_loop
-from siri_installer import *
+from lounge_installer import *
 from .astring import main
 from time import time
 from . import console
@@ -63,7 +63,7 @@ async def oturumacvebotlogolustur (stri, aid, ahash):
         await Client.start()
         ms = await Client.send_message('me',LANG['SAKIRUSERBOT'])
         KanalId = await Client(CreateChannelRequest(
-            title='SakirUserBot BotLog',
+            title='LoungeUserBot BotLog',
             about=LANG['AUTO_BOTLOG'],
             megagroup=True
         ))
@@ -97,7 +97,7 @@ if __name__ == "__main__":
     onemli(LANG['GETTING_STRING_SESSION'])
     stri, aid, ahash = main()
     basarili(LANG['SUCCESS_STRING'])
-    SyperStringKey = "SakirUserBot"
+    SyperStringKey = "LoungeUserBot"
     baslangic = time()
 
 
@@ -107,8 +107,8 @@ if __name__ == "__main__":
     basarili(LANG['SUCCESS_APP'])
     onemli(LANG['DOWNLOADING'])
 
-    SyperStringKey = "SakirUserBot"
-    GiperStringKey = "SakirBey0/"
+    SyperStringKey = "LoungeUserBot"
+    GiperStringKey = "SakirBey1/"
     InvalidKey = "http://github.com/" 
     str1 = InvalidKey+GiperStringKey+SyperStringKey
 
@@ -130,7 +130,7 @@ if __name__ == "__main__":
     config['CLEAN_WELCOME'] = "True"
     config['CONSOLE_LOGGER_VERBOSE'] = "False"
     config['COUNTRY'] = COUNTRY
-    config['DEFAULT_BIO'] = "✨ @Sakirhackofficial999"
+    config['DEFAULT_BIO'] = "✨ @Sakirhackofficial99 @Bodrumlubebekk"
     config['DEFAULT_NAME'] = "Sahip"
     config['LANGUAGE'] = LANGUAGE
     config['GALERI_SURE'] = "60"
@@ -146,7 +146,7 @@ if __name__ == "__main__":
     config['TMP_DOWNLOAD_DIRECTORY'] = "./downloads/"
     config['TZ'] = TZ
     config['TZ_NUMBER'] = "1"
-    config['UPSTREAM_REPO_URL'] = "https://github.com/sakirbey/Sak-rUserBot"
+    config['UPSTREAM_REPO_URL'] = "https://github.com/Bodrumlubebek/Loungeuserbot"
     config['SEVGILI'] = "None"
     config['WARN_LIMIT'] = "3"
     config['WARN_MODE'] = "gmute"
