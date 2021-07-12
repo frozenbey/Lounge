@@ -13,7 +13,7 @@
 
 ## Geliştiriciler
 
-[![Bodrumlu](https://github.com/must4f.png?size=100)](https://t.me/loungesupport)
+[![Bodrumlu](https://github.com/Bodrumlubebek.png?size=100)](https://t.me/loungesupport)
 
 ## Lisans
 Bu proje GPL-3.0 lisansı ile korunmaktadır.Tum Haklar Saklıdır
